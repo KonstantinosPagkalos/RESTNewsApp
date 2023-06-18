@@ -9,10 +9,13 @@
     "mongoose": "^7.1.0",
     "mongoose-autopopulate": "^1.0.1",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "test": "^3.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
   },
   "scripts": {
     "start": "nodemon server.js"

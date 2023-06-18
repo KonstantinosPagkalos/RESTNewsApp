@@ -144,7 +144,7 @@ router.patch('/submit/:id', AdminOrReporter, async (req, res) => {
 
 
 
-router.patch('/accept/:id',AdminOrReporter, async (req, res) => {
+router.patch('/accept/:id',authenticateAdmin, async (req, res) => {
   const { id } = req.params;
 
   try {

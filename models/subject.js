@@ -11,7 +11,6 @@ const subjectSchema = new mongoose.Schema({
     default: 'created'
   },
   createdAt: { type: Date, default: Date.now },
-  approvedAt: { type: Date }
 });
 
 const Subject = mongoose.model('Subject', subjectSchema);
